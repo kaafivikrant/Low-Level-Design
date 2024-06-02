@@ -1,7 +1,7 @@
 class Seating {
   constructor() {
     layout = {}
-    booked = []
+    booked =  []
   }
 
   getSeatingDetails() {
@@ -51,6 +51,11 @@ class Seating {
       return true
     }
     return false
+  }
+
+  seatAutoUpgrade(seat, tier) {
+    //demonstrate
+    return seat
   }
 }
 
